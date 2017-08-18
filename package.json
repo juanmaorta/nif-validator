@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "rollup --config rollup.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepublish": "npm run build"
   },
   "author": "Juanma Orta",
@@ -21,7 +21,8 @@
     "babel-preset-latest": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "jest": "^20.0.4",
-    "lodash": "^4.17.4",
+    "jest-cli": "^20.0.4",
+    "regenerator-runtime": "^0.11.0",
     "rollup": "^0.47.6",
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
